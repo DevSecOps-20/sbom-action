@@ -9,6 +9,7 @@ inputs:
     required: false
     description: "A path to a directory on the filesystem to scan"
     default: "."
+    type: "string"
 
   file:
     required: false
