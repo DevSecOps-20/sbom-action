@@ -24149,7 +24149,7 @@ exports.getSyftCommand = getSyftCommand;
  * Returns the SBOM format as specified by the user, defaults to SPDX
  */
 function getSbomFormat() {
-    return core.getInput("format") || "spdx-json";
+    return core.getInput("format") || "cyclonedx-json";
 }
 exports.getSbomFormat = getSbomFormat;
 /**
